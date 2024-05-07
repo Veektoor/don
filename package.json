@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Veektoor/don/issues"
   },
-  "homepage": "https://github.com/Veektoor/don#readme"
+  "homepage": "https://github.com/Veektoor/don#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
 }
