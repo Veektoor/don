@@ -1,5 +1,6 @@
 const http=require('http')
 const fs =require('fs')
+const port=8000
 
 const server=http.createServer((req, res)=>{
     if(req.url=='/'){
@@ -16,5 +17,5 @@ const server=http.createServer((req, res)=>{
     }
 })
 server.listen(8000,()=>{
-    console.log(`server is listening on port 8000`)
+    console.log(`server is listening on port ${port}`)
 })
