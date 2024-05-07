@@ -1,6 +1,7 @@
 const http=require('http')
 const fs =require('fs')
-const port=8000
+
+const port = process.env.PORT || 8000;
 
 const server=http.createServer((req, res)=>{
     if(req.url=='/'){
